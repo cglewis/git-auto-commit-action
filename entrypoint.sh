@@ -2,6 +2,9 @@
 
 set -eu
 
+echo "Bash version:"
+bash --version
+
 if "$INPUT_DISABLE_GLOBBING"; then
     set -o noglob;
 fi
